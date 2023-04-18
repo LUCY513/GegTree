@@ -4,6 +4,12 @@ public class Human {
     private String surname;             // Фамилия
     private String age;                 // Возраст
 
+    public Human(String name, String surname, String age){
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+    }
+    
     // Методы get позволяющие получить информацию полей
     public String getName(){
         return name;
@@ -15,12 +21,6 @@ public class Human {
 
     public String getAge(){
         return age;
-    }
-
-    public Human(String name, String surname, String age){
-        this.name = name;
-        this.surname = surname;
-        this.age = age;
     }
 
     // Переопреоделяем метод toString для вывода связей
