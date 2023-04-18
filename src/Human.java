@@ -1,5 +1,5 @@
 public class Human {
-    // Создаем приватные поля, что бы их нельзя дыло изменить из вне
+    // Создаем приватные поля, что бы их нельзя было изменить из вне
     private String name;                // Имя
     private String surname;             // Фамилия
     private String age;                 // Возраст
